@@ -10,8 +10,10 @@ public class UserRunner implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         Info info = new Info("Aldo", "Baglio", LocalDate.of(1970, 1, 1));
-        InfoAdapter user = new InfoAdapter(info);
-        System.out.println(user.getNomeCompleto());
-        System.out.println(user.getEtá());
+        InfoAdapter userInfo = new InfoAdapter(info);
+        UserData userData = new UserData();
+        userData.getData(userInfo);
+        System.out.println(userData.getNomeCompleto());
+        System.out.println(userData.getEtá());
     }
 }

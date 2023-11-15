@@ -6,7 +6,7 @@ import KlajdiNdoci.U5W3D3.exercise1.entities.UserData;
 import java.time.LocalDate;
 import java.time.Period;
 
-public class InfoAdapter extends UserData {
+public class InfoAdapter implements DataSource {
     private Info info;
 
     public InfoAdapter(Info info) {
