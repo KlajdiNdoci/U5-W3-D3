@@ -1,7 +1,7 @@
-package KlajdiNdoci.U5W3D3.runners;
+package KlajdiNdoci.U5W3D3.exercise1.runners;
 
-import KlajdiNdoci.U5W3D3.adapters.InfoAdapter;
-import KlajdiNdoci.U5W3D3.entities.Info;
+import KlajdiNdoci.U5W3D3.exercise1.adapters.InfoAdapter;
+import KlajdiNdoci.U5W3D3.exercise1.entities.Info;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

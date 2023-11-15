@@ -1,8 +1,7 @@
-package KlajdiNdoci.U5W3D3.adapters;
+package KlajdiNdoci.U5W3D3.exercise1.adapters;
 
-import KlajdiNdoci.U5W3D3.entities.DataSource;
-import KlajdiNdoci.U5W3D3.entities.Info;
-import KlajdiNdoci.U5W3D3.entities.UserData;
+import KlajdiNdoci.U5W3D3.exercise1.entities.Info;
+import KlajdiNdoci.U5W3D3.exercise1.entities.UserData;
 
 import java.time.LocalDate;
 import java.time.Period;
