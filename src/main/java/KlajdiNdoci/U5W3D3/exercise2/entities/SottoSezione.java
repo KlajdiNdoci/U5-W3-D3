@@ -8,10 +8,9 @@ import java.util.List;
 @Getter
 @Setter
 @AllArgsConstructor
-public class Sezione implements ComponenteLibro{
-    private int numeroSezione;
+public class SottoSezione implements ComponenteLibro {
+    private int numeroSottoSezione;
     private List<Pagina> pagine;
-    private List<SottoSezione> sottoSezioni;
 
     @Override
     public int getNumeroDiPagine() {
@@ -19,23 +18,14 @@ public class Sezione implements ComponenteLibro{
         for (Pagina pagina: pagine) {
             total += pagina.getNumeroDiPagine();
         }
-        for (SottoSezione sottoSezione: sottoSezioni) {
-            total += sottoSezione.getNumeroDiPagine();
-        }
         return total;
     }
 
     @Override
     public void print() {
-        System.out.println("Sezione numero " + numeroSezione);
         System.out.println("Pagine:");
         for (Pagina pagina: pagine) {
             pagina.print();
         }
-        System.out.println("Sotto-sezioni:");
-        for (SottoSezione sottoSezione: sottoSezioni) {
-            sottoSezione.print();
-        }
-
     }
 }

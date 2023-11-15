@@ -18,6 +18,7 @@ public class Pagina implements ComponenteLibro {
 
     @Override
     public void print() {
-
+        System.out.println("Pagina numero " + numeroPagina);
+        System.out.println(contenuto);
     }
 }

@@ -1,4 +1,4 @@
-package KlajdiNdoci.U5W3D3.exercise1.adapters;
+package KlajdiNdoci.U5W3D3.exercise1.entities;
 
 import KlajdiNdoci.U5W3D3.exercise1.entities.Info;
 import KlajdiNdoci.U5W3D3.exercise1.entities.UserData;
